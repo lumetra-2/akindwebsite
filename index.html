@@ -35,32 +35,27 @@
             </span>
         </a>
 
-        <nav id="nav-menu">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="HTML.html">HTML & CSS</a></li>
-                <li><a href="#skills">DEVS SKILL</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#projects">PROJECT</a></li>
-            </ul>
-        </nav>
-    </header>
+       
+<nav id="nav-menu">
+  <ul>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT US</a></li>
+    <!-- Dropdown Menu -->
+    <li class="dropdown">
+      <a href="#skills">DEVS SKILL ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#html-skill">HTML</a></li>
+        <li><a href="#css-skill">CSS</a></li>
+        <li><a href="#js-skill">JavaScript</a></li>
+        <li><a href="#python-skill">Python</a></li>
+        <li><a href="#react-skill">React</a></li>
+      </ul>
+    </li>
 
-
-
-
-
-
-
-    <br>
-    <!-- Hero Section -->
-    <header id="home" class="hero">
-        <div class="hero-card">
-            <h1>Welcome to My Website</h1>
-            <p>Modern • Clean • Responsive</p>
-            <a href="#projects" class="btn">Explore Projects</a>
-        </div>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="#projects">PROJECT</a></li>
+  </ul>
+</nav>
     </header>
 
 
@@ -119,7 +114,7 @@
 
                 <div class="small-grid">
                     <div class="blog-card small">
-                        <img src="image/java - Copy.jpg" alt="Blog Image">
+                        <img src="image/images (1) - Copy.jpeg" alt="Blog Image">
                         <div class="overlay"></div>
                         <div class="blog-content">
                             <span class="tag">3D interactivity</span>
@@ -129,15 +124,21 @@
                             </div>
                         </div>
                     </div>
+                                </div>
+                            </div>
 
-                    <div class="blog-card small">
-                        <img src="image/html-vector-icon - Copy.jpg" alt="Blog Image">
-                        <div class="overlay"></div>
-                        <div class="blog-content">
-                            <span class="tag">Create Animated Text Using SVG and CSS</span>
-                            <h2>Create Animated Text Using SVG and CSS with Stroke-Dasharray and Stroke-Dashoffset</h2>
-                            <div class="meta">
-                                <span>📅 November 09, 2024</span>
+                            <div class="blog-card">
+                                <img src="image/images (1) - Copy.jpeg" alt="Blog Image">
+                                <div class="overlay"></div>
+                                <div class="blog-content">
+                                    <span class="tag">Create Stunning Animations with CSS mask-image Using Ink
+                                        Effect</span>
+                                    <h2>Create Stunning Animations with CSS mask-image Using Ink Effect</h2>
+                                    <div class="meta">
+                                        <span>👤 Unknown</span>
+                                        <span>📅 November 17, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -180,505 +181,369 @@
 
 
 
-            <!-- 9x Overview Sections -->
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Scroll animations are triggered as users scroll up or down a webpage.</p>
+
+            <!-- Modern Overview Section -->
+            <section class="overview-section">
+                <h2 class="section-title">Overview</h2>
+                <div class="overview-grid">
+
+                    <div class="overview-card">
+                        <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon">
+                        <div class="overview-content">
+                            <h3>Scroll Animations</h3>
+                            <p>Scroll animations are triggered as users scroll up or down a webpage.</p>
+                        </div>
+                    </div>
+
+                    <div class="overview-card">
+                        <img src="image/coffee project.png" alt="HTML Icon">
+                        <div class="overview-content">
+                            <h3>Interactive Design</h3>
+                            <p>They make websites interactive and visually engaging.</p>
+                        </div>
+                    </div>
+
+                    <div class="overview-card">
+                        <img src="image/java - Copy.jpg" alt="HTML Icon">
+                        <div class="overview-content">
+                            <h3>CSS Effects</h3>
+                            <p>Common effects include fade-in, slide-in, zoom, and rotation.</p>
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/coffee project.png" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>They make websites interactive and visually engaging.</p>
+
+            <!-- Modern Featured Posts -->
+            <aside class="featured-posts">
+                <h2 class="section-title">Featured Posts</h2>
+
+                <div class="featured-list">
+
+                    <div class="featured-card">
+                        <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
+                        <div class="featured-info">
+                            <h3>Create a Slider in HTML CSS & JS</h3>
+                            <p>By Akash • Oct 21, 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="featured-card">
+                        <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
+                        <div class="featured-info">
+                            <h3>Responsive Navigation with Flexbox</h3>
+                            <p>By Akash • Nov 14, 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="featured-card">
+                        <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
+                        <div class="featured-info">
+                            <h3>CSS Grid for Layouts</h3>
+                            <p>By Akash • Dec 07, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ABOUT US Section -->
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <p>
+                        Welcome to <b>Akash & Indrani Web</b> – a place where we share web development tutorials,
+                        creative
+                        designs, and coding inspiration.
+                        Our mission is to make learning web technologies simple, practical, and exciting for everyone.
+                    </p>
+                    <p>
+                        From <b>HTML, CSS, and JavaScript</b> to modern design trends like <b>Glassmorphism, Animations,
+                            and
+                            Responsive Layouts</b>,
+                        we cover it all. Whether you are a beginner or an advanced learner, you’ll always find something
+                        new
+                        here.
+                    </p>
+                    <div class="team">
+                        <div class="member">
+                            <img src="image/akash - Copy.jpg" alt="Akash">
+                            <h3>Akash</h3>
+                            <p>Frontend Developer, Designer & Blogger</p>
+                        </div>
+                        <div class="member">
+                            <img src="image/indrani.jpg" alt="Indrani">
+                            <h3>Indrani</h3>
+                            <p>Creative Designer & Content Writer</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Common effects include fade-in, slide-in, zoom, and rotation.</p>
+
+
+
+
+
+
+
+            <!-- Project Section -->
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <h2>Our Projects</h2>
+                    <div class="projects-grid">
+
+                        <!-- Project 1 -->
+                        <div class="project-card">
+                            <a href="project1.html">
+                                <img src="image/animated_login_form_Free27-12-2016_2144613378.jpg" alt="Project 1">
+                            </a>
+                            <h3>Portfolio Website</h3>
+                            <p>A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript.
+                            </p>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card">
+                            <a href="project2.html">
+                                <img src="image/images (1) - Copy.jpeg" alt="Project 2">
+                            </a>
+                            <h3>E-commerce Landing Page</h3>
+                            <p>A modern landing page design for an e-commerce store with smooth UI and animations.</p>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card">
+                            <a href="project3.html">
+                                <img src="image/java - Copy.jpg" alt="Project 3">
+                            </a>
+                            <h3>Blog Template</h3>
+                            <p>A fully responsive blog template featuring dynamic layouts and clean typography.</p>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-card">
+                            <a href="project4.html">
+                                <img src="image/images (1) - Copy.jpeg" alt="Project 4">
+                            </a>
+                            <h3>Glassmorphism UI</h3>
+                            <p>Beautiful user interface designed with glassmorphism effect and smooth gradients.</p>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="project-card">
+                            <a href="project5.html">
+                                <img src="image/developers.png" alt="Project 5">
+                            </a>
+                            <h3>Interactive Dashboard</h3>
+                            <p>A dashboard project with charts, graphs, and responsive widgets using JavaScript.</p>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="project-card">
+                            <a href="project6.html">
+                                <img src="image/annime coder.png" alt="Project 6">
+                            </a>
+                            <h3>Animated Login Page</h3>
+                            <p>A stylish login form with animations, smooth transitions, and modern UI elements.</p>
+                        </div>
+
+                    </div>
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>They guide users through content step by step.</p>
+
+
+
+            <!-- 2nd skilll -->
+            <!-- Skills Section -->
+            <section class="skills" id="skills">
+                <div class="skills-container">
+                    <h2>Akash Skills</h2>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="82">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="78">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="60">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="60">0%</div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Scroll animations can be built with CSS transitions and keyframes.</p>
+
+
+
+
+
+
+
+
+
+            <section class="skills" id="skills">
+                <div class="skills-container">
+                    <h2>Indrani Skills</h2>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="95">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="75">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="60">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="progress">
+                            <div class="progress-bar" data-skill="60">0%</div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>CSS-only scroll animations are lightweight and fast.</p>
+
+
+
+
+
+
+
+            <!-- Contact Us Section -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions, feedback, or collaboration ideas, feel free to reach out to us!</p>
+
+                    <form action="#" method="post" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
             </section>
 
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Parallax effects add depth to scrolling experiences.</p>
-            </section>
-
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Scroll-linked animations enhance storytelling on websites.</p>
-            </section>
-
-            <section class="overview">
-                <img src="image/html-vector-icon - Copy.jpg" alt="HTML Icon" class="post-img">
-                <h2>Overview</h2>
-                <p>Scroll-linked animations enhance storytelling on websites.</p>
-            </section>
-
-        </article>
 
 
 
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <!-- 9x Featured Post Cards -->
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Create a Slider in HTML CSS and JavaScript</b></p>
-                <small>By Akash • Friday, October 21, 2022</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Responsive Navigation Bar with CSS Flexbox</b></p>
-                <small>By Akash • Monday, November 14, 2022</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>How to Use CSS Grid for Layouts</b></p>
-                <small>By Akash • Wednesday, December 07, 2022</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Build a Portfolio Website with HTML & CSS</b></p>
-                <small>By Akash • Friday, January 20, 2023</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Animated Buttons with CSS Only</b></p>
-                <small>By Akash • Monday, February 27, 2023</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>CSS Clip-Path Creative Shapes</b></p>
-                <small>By Akash • Thursday, March 30, 2023</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>3D Image Slider with CSS</b></p>
-                <small>By Akash • Tuesday, April 18, 2023</small>
-            </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
+
+
+
+
+            <div class="windows">
+                <h2>ONLY FOR WINDOWS ❤️</h2>
             </div>
 
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
 
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">Marketing</a></li>
+                        </ul>
+                    </div>
 
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
 
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Magic Hover Effects using CSS</b></p>
-                <small>By Akash • Friday, May 12, 2023</small>
-            </div>
-
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Create a Slider in HTML CSS and JavaScript</b></p>
-                <small>By Akash • Friday, October 21, 2022</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Create a Slider in HTML CSS and JavaScript</b></p>
-                <small>By Akash • Friday, October 21, 2022</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Create a Slider in HTML CSS and JavaScript</b></p>
-                <small>By Akash • Friday, October 21, 2022</small>
-            </div>
-
-            <div class="card">
-                <h3>Featured Post</h3>
-                <img src="image/html-vector-icon - Copy.jpg" alt="Featured">
-                <p><b>Create a Slider in HTML CSS and JavaScript</b></p>
-                <small>By Akash • Friday, October 21, 2022</small>
-            </div>
-
-
-        </aside>
-    </main>
-
-
-
-    <!-- ABOUT US Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>
-                Welcome to <b>Akash & Indrani Web</b> – a place where we share web development tutorials, creative
-                designs, and coding inspiration.
-                Our mission is to make learning web technologies simple, practical, and exciting for everyone.
-            </p>
-            <p>
-                From <b>HTML, CSS, and JavaScript</b> to modern design trends like <b>Glassmorphism, Animations, and
-                    Responsive Layouts</b>,
-                we cover it all. Whether you are a beginner or an advanced learner, you’ll always find something new
-                here.
-            </p>
-            <div class="team">
-                <div class="member">
-                    <img src="image/akash - Copy.jpg" alt="Akash">
-                    <h3>Akash</h3>
-                    <p>Frontend Developer, Designer & Blogger</p>
-                </div>
-                <div class="member">
-                    <img src="image/indrani.jpg" alt="Indrani">
-                    <h3>Indrani</h3>
-                    <p>Creative Designer & Content Writer</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-    <!-- Project Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Our Projects</h2>
-            <div class="projects-grid">
-
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <a href="project1.html">
-                        <img src="image/animated_login_form_Free27-12-2016_2144613378.jpg" alt="Project 1">
-                    </a>
-                    <h3>Portfolio Website</h3>
-                    <p>A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <a href="project2.html">
-                        <img src="image/images (1) - Copy.jpeg" alt="Project 2">
-                    </a>
-                    <h3>E-commerce Landing Page</h3>
-                    <p>A modern landing page design for an e-commerce store with smooth UI and animations.</p>
+                <div class="footer-bottom">
+                    <p>© 2025 Akash & Indrani | All Rights Reserved</p>
                 </div>
+            </footer>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <a href="project3.html">
-                        <img src="image/java - Copy.jpg" alt="Project 3">
-                    </a>
-                    <h3>Blog Template</h3>
-                    <p>A fully responsive blog template featuring dynamic layouts and clean typography.</p>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <a href="project4.html">
-                        <img src="image/images (1) - Copy.jpeg" alt="Project 4">
-                    </a>
-                    <h3>Glassmorphism UI</h3>
-                    <p>Beautiful user interface designed with glassmorphism effect and smooth gradients.</p>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <a href="project5.html">
-                        <img src="image/developers.png" alt="Project 5">
-                    </a>
-                    <h3>Interactive Dashboard</h3>
-                    <p>A dashboard project with charts, graphs, and responsive widgets using JavaScript.</p>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <a href="project6.html">
-                        <img src="image/annime coder.png" alt="Project 6">
-                    </a>
-                    <h3>Animated Login Page</h3>
-                    <p>A stylish login form with animations, smooth transitions, and modern UI elements.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- 2nd skilll -->
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="skills-container">
-            <h2>Akash Skills</h2>
-            <div class="skill">
-                <span>HTML</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="82">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>CSS</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="78">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>JavaScript</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="60">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>React</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="60">0%</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-    <section class="skills" id="skills">
-        <div class="skills-container">
-            <h2>Indrani Skills</h2>
-            <div class="skill">
-                <span>HTML</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="95">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>CSS</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="75">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>JavaScript</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="60">0%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <span>React</span>
-                <div class="progress">
-                    <div class="progress-bar" data-skill="60">0%</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-    <!-- Contact Us Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, feedback, or collaboration ideas, feel free to reach out to us!</p>
-
-            <form action="#" method="post" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-
-    <div class="windows">
-        <h2>ONLY FOR WINDOWS ❤️</h2>
-    </div>
-
-
-
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>About</h3>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Services</h3>
-                <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Development</a></li>
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Marketing</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Support</h3>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2025 Akash & Indrani | All Rights Reserved</p>
-        </div>
-    </footer>
-
-
-
-    <script src="script.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+
+
+
 // Mobile Menu Toggle
 const menuToggle = document.getElementById('menu-toggle');
 const navMenu = document.getElementById('nav-menu').querySelector('ul');
@@ -40,12 +43,6 @@ window.addEventListener("load", checkVisibility);
 
 
 
-
-
-
-
-
-
 // Animate progress bars on scroll
 document.addEventListener("DOMContentLoaded", () => {
   const skillsSection = document.getElementById("skills");
@@ -70,6 +67,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   observer.observe(skillsSection);
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
